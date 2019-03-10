@@ -24,7 +24,7 @@
                              @"page" : k_Page_SFDiaryListViewController,
                              @"context" : @{},
                              @"tabTitle" : [SFLanguage localizedStringWithKey:@"TabTitle" componentName:componentName],
-                             @"tabImage" : [SFImages imageWithName:@"WX20190227-205248.png" componentName:componentName]
+//                             @"tabImage" : [SFImages imageWithName:@"WX20190227-205248.png" componentName:componentName]
                              };
     [[SFInjection sharedInstance] injectWithIdentifier:@"Injection_SFTab"
                                                 params:params];
